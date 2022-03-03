@@ -7,12 +7,9 @@
 } 
 
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(22, 161, 255, 1) 0%,
-    rgba(100, 1656, 255, 16) 100%
-  );
   text-align: center;
+  background:#000428;
+
 }
 .todo-app {
   display: flex;

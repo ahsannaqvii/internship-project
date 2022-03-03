@@ -12,32 +12,27 @@
   
     padding: 16px;
     border-radius: 5px;
-    width: 90%;
+    width: 80%;
   }
   
   .todo-row:nth-child(2n + 1) {
-    background: linear-gradient(
+    /* background: linear-gradient(
       90deg,
-      rgba(93, 12, 255, 1) 0%,
+      rgba(76, 12, 255, 1) 0%,
       rgba(155, 0, 250, 1) 100%
-    );
+    ); */
+    background:#FF6103;
+    opacity: .7;
+    
   }
   
   .todo-row:nth-child(2n) {
-    background: linear-gradient(
-      90deg,
-      rgba(255, 12, 241, 1) 0%,
-      rgba(250, 0, 135, 1) 100%
-    );
+
+    background:#CD3700;
+    opacity: .7;
   }
   
-  /* .todo-row:nth-child(4n + 3) {
-    background: linear-gradient(
-      90deg,
-      rgba(20, 159, 255, 1) 0%,
-      rgba(17, 122, 255, 1) 100%
-    );
-  } */
+
   .delete-icon {
     margin-right: 5px;
     color: #fff;
